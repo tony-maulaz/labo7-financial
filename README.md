@@ -86,8 +86,8 @@ La deuxième fonction effectue l’opération inverse.
 
 Les prototypes des fonctions sont
 ```C
-    double conversionEuroChf ( double montant );
-    double conversionChfEuro ( double montant );
+    void conversionEuroChf ( void );
+    void conversionChfEuro ( void );
 ```
 
 ### Quitter
