@@ -133,7 +133,7 @@ Voilà un exemple d'affichage pour les intêrets, le tableau doit s'adapter pour
 ```
 
 ### Conversions
-Voici 2 exemples d'affichage pour les conversions
+Voici 2 exemples d'affichage pour les conversions, l'affichage est libre, vous pouvez le présenter comme vous le voulez.
 ```C
 10.00 [CHF] => 8.33 [EUR]
 ```
