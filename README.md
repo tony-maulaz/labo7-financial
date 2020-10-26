@@ -74,7 +74,7 @@ intérêts annuels.
 Le prototype de la fonction pour calculer les intérêts est
 
 ```C
-    void calculInteretsAnnuels ( double capital, double taux );
+    void calculInteretsAnnuels ( void );
 ```
 
 ### Conversions
