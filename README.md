@@ -14,6 +14,9 @@ On vous demande de concevoir puis d’écrire un programme qui permet :
 
 Le choix de l’opération doit être effectué par l’intermédiaire d’un menu.
 
+### Validation des entrées utilisateurs
+Dans ce labo, l'utilisateur peut entrer n'importe quoi. Si une entrée est fausse, il faut demander à l'utilisateur de recommencer.
+
 ## Type Boolean
 Souvent lorsque l’on fait des tests en programmation, nous avons besoin d’un résultat vrai ou faux.
 
@@ -94,7 +97,7 @@ Les prototypes des fonctions sont
 ```
 
 #### Validation
--  La valeur doit être > 0
+-  La valeur doit être > 0, si la valeur n'est pas correcte, il que l'utilisateur recommence la saisie.
 
 ### Quitter
 Cette option du menu permet de sortir du programme.
@@ -146,7 +149,7 @@ Il est aussi possible de vider le buffer avec cette commande
 
 ## Liste des livrables
 
-Mettre les fichiers suivant dans une archive `**zip**` (**pénalité pour les archives `rar`**) et la placer sur Cyberlearn
+Mettre les fichiers suivant dans une archive **`zip`** (**pénalité pour les archives `rar`**) et la placer sur Cyberlearn
 -  Code source
 -  Le fichier exécutable
 -  Le fichier de test
