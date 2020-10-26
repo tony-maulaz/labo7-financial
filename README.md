@@ -103,6 +103,16 @@ Les prototypes des fonctions sont
 Cette option du menu permet de sortir du programme.
 
 ## Affichage 
+### Menu
+Voici un exemple de menu
+```C
+====== Menu ======
+1 - Interets annuels
+2 - Conversion EUR -> CHF
+3 - Conversion CHF -> EUR
+0 - Quitter
+```
+
 ### Interet
 Voilà un exemple d'affichage pour les intêrets, le tableau doit s'adapter pour que l'affichage soit correct.
 
