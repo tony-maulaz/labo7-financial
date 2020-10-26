@@ -97,7 +97,7 @@ Les prototypes des fonctions sont
 ```
 
 #### Validation
--  La valeur doit être > 0, si la valeur n'est pas correcte, il que l'utilisateur recommence la saisie.
+-  La valeur doit être > 0, si la valeur n'est pas correcte, il faut que l'utilisateur recommence la saisie.
 
 ### Quitter
 Cette option du menu permet de sortir du programme.
