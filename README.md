@@ -71,6 +71,9 @@ taux d’intérêt en %. Il affiche ensuite le montant annuel des intérêts cor
 à l’écran sous la forme d’un tableau facilement lisible, affichant le capital, le taux d’intérêt et le montant des
 intérêts annuels.
 
+#### Validation
+-  Le taux et le capital doivent être > 0
+
 Le prototype de la fonction pour calculer les intérêts est
 
 ```C
@@ -90,15 +93,41 @@ Les prototypes des fonctions sont
     void conversionChfEuro ( void );
 ```
 
+#### Validation
+-  La valeur doit être > 0
+
 ### Quitter
 Cette option du menu permet de sortir du programme.
 
 ## Affichage 
-Les résultats affichés devront être arrondi à 5 cts au plus proche.
--  5.22 -> 5.20
--  5.23 -> 5.25
--  5.27 -> 5.25
--  5.28 -> 5.3
+### Interet
+Voilà un exemple d'affichage pour les intêrets, le tableau doit s'adapter pour que l'affichage soit correct.
+
+```C
+┌─────────┬──────┬─────────┐
+│ Capital │ Taux │ Interet │
+├─────────┼──────┼─────────┤
+│  123.00 │ 0.10 │    0.12 │
+└─────────└──────└─────────┘
+```
+
+```C
+┌─────────────┬───────┬────────────┐
+│ Capital     │ Taux  │ Interet    │
+├─────────────┼───────┼────────────┤
+│ 10000000.00 │ 36.00 │ 3600000.00 │
+└─────────────└───────└────────────┘
+```
+
+### Conversions
+Voici 2 exemples d'affichage pour les conversions
+```C
+10.00 [CHF] => 8.33 [EUR]
+```
+
+```C
+Le montant de 100.00 EUR vaut 120.00 CHF
+```
 
 ## Aides
 N’oubliez pas de traiter le scanf en cas de mauvaise saisie. Dans ce laboratoire, l’utilisateur peut entrer n’importe quoi.
