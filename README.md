@@ -100,6 +100,21 @@ Les résultats affichés devront être arrondi à 5 cts au plus proche.
 -  5.27 -> 5.25
 -  5.28 -> 5.3
 
+## Aides
+N’oubliez pas de traiter le scanf en cas de mauvaise saisie. Dans ce laboratoire, l’utilisateur peut entrer n’importe quoi.
+
+Je vous rappelle que scanf retourne le nombre de valeur saisie :
+```C
+    int nbr = scanf("%d", &val);
+```
+
+Il est aussi possible de vider le buffer avec cette commande
+```C
+    while (getchar() != '\n') {
+    }
+```
+
+
 ## Liste des livrables
 
 Mettre les fichiers suivant dans une archive `**zip**` (**pénalité pour les archives `rar`**) et la placer sur Cyberlearn
