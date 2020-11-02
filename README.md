@@ -60,11 +60,23 @@ Cette fonction doit :
 Voici *un exemple* de comment implémenter la boucle pour le menu. Modifier le pour que le style corresponde à votre programme.
 
 ```C
-    bool saisieIncorrecte = false ;
+    bool saisieIncorrecte = false;
     do {
-        // établissement de la condition de maintien dans la boucle
-        saisieIncorrecte = ...
+        printf("Veuillez entrer une valeur : ");
+        int nbr = scanf("%d", &val);
+        if( ) {
+            saisieIncorrecte = false;
+        }
     } while ( saisieIncorrecte );
+```
+
+Vous pouvez aussi l'implémenter avec une boucle `while` standard
+
+```C
+    bool saisieIncorrecte = true;
+    while ( saisieIncorrecte ) {        
+        saisieIncorrecte = ...
+    };
 ```
 
 ### Calcul des intérêts annuels
