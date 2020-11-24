@@ -14,6 +14,9 @@ On vous demande de concevoir puis d’écrire un programme qui permet :
 
 Le choix de l’opération doit être effectué par l’intermédiaire d’un menu.
 
+Lorsqu'une fonction est terminée, le programme revient au menu principal.
+Le seul moyen de quitter le programme est d'entrer la valeur `0`
+
 ### Validation des entrées utilisateurs
 Dans ce labo, l'utilisateur peut entrer n'importe quoi. Si une entrée est fausse, il faut demander à l'utilisateur de recommencer.
 
